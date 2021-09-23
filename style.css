@@ -25,6 +25,10 @@ header {
     color: white;
     border-bottom: 5px solid transparent;
     border-bottom-color: rgb(255, 255, 255);
+    -moz-user-select: none; 
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 p {
@@ -33,4 +37,5 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Arial';
 }
