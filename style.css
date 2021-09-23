@@ -1,1 +1,28 @@
-html {}
+body {
+    margin: 0;
+    background: linear-gradient(119deg, rgba(0,8,11,1) 0%, rgba(0,61,89,1) 100%);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding: 0;
+    font-family: 'Arial';
+    font-size: 1.1em;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+
+header {
+    width: 100%;
+    padding: 60px 0;
+    text-align: center;
+    background-image: url("https://www.cirencommunications.com/wp-content/uploads/2015/10/Inside-Banner-Animated.gif");
+    color: white;
+    border-bottom: 5px solid transparent;
+    border-bottom-color: rgb(255, 255, 255);
+}
