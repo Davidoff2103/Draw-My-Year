@@ -44,3 +44,47 @@ p {
 img {
     margin-top: -3vh;
 }
+
+.cuadrado {
+    width: 35vh; 
+    height: 35vh; 
+    border: 3px solid rgb(136, 136, 136);
+    background-image: url("/Imagenes/1.jpg");
+    background: #ffffff;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    filter: brightness(70%);
+    margin-left: 3vw;
+}
+
+.titulo {
+    color: black;
+    font-size: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial';
+
+}
+
+.cuadrado:hover {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("/Imagenes/1.jpg");
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+
+.cuadrado:hover > .titulo{
+    display: none;
+  }
