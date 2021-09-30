@@ -54,8 +54,8 @@ img {
 }
 
 .cuadrado {
-    width: 35vh; 
-    height: 35vh; 
+    width: 50vh; 
+    height: 50vh; 
     border: 3px solid rgb(136, 136, 136);
     background-image: url("/Imagenes/1.jpg");
     background: #ffffff;
@@ -69,41 +69,12 @@ img {
     -o-transition: 1s;
     transition: 1s;
     filter: brightness(70%);
-    margin-left: 3vw;
-}
-.cuadrado1 {
-    width: 35vh; 
-    height: 35vh; 
-    border: 3px solid rgb(136, 136, 136);
-    background-image: url("/Imagenes/1.jpg");
-    background: #ffffff;
-    border-radius: 20px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
-    -o-transition: 1s;
-    transition: 1s;
-    filter: brightness(70%);
-    margin-left: 42%;
-}
-.titulo {
-    color: black;
-    font-size: 4vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Arial';
-
 }
 
 .cuadrado:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-image: url("/Imagenes/1.jpg");
     -webkit-transition: 1s;
     -moz-transition: 1s;
     -o-transition: 1s;
@@ -114,24 +85,49 @@ img {
 .cuadrado:hover > .titulo{
     display: none;
   }
+
 .cuadrado{
     background-color:darkslategrey;
 }
-.cuadrado1:hover {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-image: url("/Imagenes/1.jpg");
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
-    -o-transition: 1s;
-    transition: 1s;
-    
+
+#cuadrado1 {
+    margin-left: 3vw;
+}
+#cuadrado2 {
+    margin-left: 42%;
+}
+#cuadrado2 {
+    margin-right: 3vw;
+    margin-left: auto;
 }
 
-.cuadrado1:hover > .titulo{
-    display: none;
-  }
-.cuadrado1{
-    background-color:darkslategrey;
+#cuadrado3 {
+    margin-left: 3vw;
+    margin-top: 5vh;
 }
+
+#cuadrado1:hover{
+    background-image: url("/Imagenes/1.jpg");
+}
+
+#cuadrado2:hover{
+    background-image: url("/Imagenes/2.jpg");
+}
+
+#cuadrado3:hover{
+    background-image: url("/Imagenes/3.jpg");
+}
+
+.titulo {
+    color: white;
+    font-size: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial';
+
+}
+
+
+
+
