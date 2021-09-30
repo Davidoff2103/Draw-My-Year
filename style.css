@@ -91,18 +91,25 @@ img {
 }
 
 #cuadrado1 {
-    margin-left: 3vw;
+    width: 56vh; 
+    height: 50vh;
+    margin-left: 8vw;
+    margin-top: 30vh;
 }
 #cuadrado2 {
+    width: 56vh; 
+    height: 50vh;
     margin-left: 42%;
 }
 #cuadrado2 {
-    margin-right: 3vw;
+    margin-right: 8vw;
     margin-left: auto;
 }
 
 #cuadrado3 {
-    margin-left: 3vw;
+    width: 76vh; 
+    height: 50vh; 
+    margin-left: 8vw;
     margin-top: 5vh;
 }
 
@@ -125,7 +132,6 @@ img {
     justify-content: center;
     align-items: center;
     font-family: 'Arial';
-
 }
 
 
