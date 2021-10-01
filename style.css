@@ -164,3 +164,46 @@ img {
     align-items: center;
     font-family: 'Arial';
 }
+
+.texto {
+    visibility: hidden;
+    font-size: 3vh;
+    position: absolute;
+    z-index: 99999;
+}
+
+#texto1 {
+    top: 25vh;
+    right: 8vw;
+    margin-top: 30vh;
+}
+
+#texto2 {
+    top: 25vh;
+    left: 8vw;
+    margin-top: 80vh;
+}
+
+#texto3 {
+    top: 25vh;
+    right: 8vw;
+    margin-top: 130vh;
+}
+
+#texto4 {
+    top: 25vh;
+    left: 8vw;
+    margin-top: 180vh;
+}
+
+#texto5 {
+    top: 25vh;
+    right: 8vw;
+    margin-top: 240vh;
+}
+
+#texto6 {
+    top: 25vh;
+    left: 8vw;
+    margin-top: 290vh;
+}
