@@ -102,6 +102,7 @@ img {
     height: 50vh;
     margin-right: 8vw;
     margin-left: auto;
+    margin-top: 5vh;
 }
 
 #cuadrado3 {
@@ -116,6 +117,7 @@ img {
     height: 50vh;
     margin-right: 8vw;
     margin-left: auto;
+    margin-top: 5vh;
 }
 
 #cuadrado5 {
@@ -130,6 +132,7 @@ img {
     height: 50vh;
     margin-right: 8vw;
     margin-left: auto;
+    margin-top: 5vh;
 }
 
 #cuadrado1:hover {
@@ -175,35 +178,35 @@ img {
 #texto1 {
     top: 25vh;
     right: 8vw;
-    margin-top: 25vh;
+    margin-top: 28vh;
 }
 
 #texto2 {
     top: 25vh;
     left: 8vw;
-    margin-top: 79vh;
+    margin-top: 83vh;
 }
 
 #texto3 {
     top: 25vh;
     right: 8vw;
-    margin-top: 135vh;
+    margin-top: 140vh;
 }
 
 #texto4 {
     top: 25vh;
     left: 8vw;
-    margin-top: 185vh;
+    margin-top: 195vh;
 }
 
 #texto5 {
     top: 25vh;
     right: 8vw;
-    margin-top: 243vh;
+    margin-top: 250vh;
 }
 
 #texto6 {
     top: 25vh;
     left: 8vw;
-    margin-top: 292vh;
+    margin-top: 306vh;
 }
