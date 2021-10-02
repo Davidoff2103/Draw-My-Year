@@ -71,7 +71,7 @@ img {
     width: 50vh;
     height: 50vh;
     border: 3px solid white;
-    background-image: url("/Imagenes/1.jpg");
+    background-image: url("Imagenes/1.jpg");
     background: #ffffff;
     border-radius: 20px;
     text-align: center;
@@ -149,27 +149,27 @@ img {
 }
 
 #cuadrado1:hover {
-    background-image: url("/Imagenes/1.jpg");
+    background-image: url("Imagenes/1.jpg");
 }
 
 #cuadrado2:hover {
-    background-image: url("/Imagenes/2.jpg");
+    background-image: url("Imagenes/2.jpg");
 }
 
 #cuadrado3:hover {
-    background-image: url("/Imagenes/3.jpg");
+    background-image: url("Imagenes/3.jpg");
 }
 
 #cuadrado4:hover {
-    background-image: url("/Imagenes/4.jpg");
+    background-image: url("Imagenes/4.jpg");
 }
 
 #cuadrado5:hover {
-    background-image: url("/Imagenes/5.jpg");
+    background-image: url("Imagenes/5.jpg");
 }
 
 #cuadrado6:hover {
-    background-image: url("/Imagenes/6.jpg");
+    background-image: url("Imagenes/6.jpg");
 }
 
 .titulo {
