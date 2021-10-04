@@ -230,3 +230,20 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+#footer {
+    display: block;
+}
+
+#we{
+    text-align: center;
+}
+
+#github a{
+    color:transparent;
+    padding: 1vw;
+}
+
+#github img:hover{
+    filter: brightness(50%);
+}
